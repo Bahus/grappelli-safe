@@ -158,8 +158,8 @@ input[type=text], input[type=password] {
     Moz Browsers have a default horizontal padding of 3px in input[type=submit] */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     input[type=text], input[type=password] {
-        padding: 0 3px 4px;
-        height: 19px;
+        /* padding: 0 3px 4px; is not necessary in the latest versions of chrome and safari */
+        height: 14px;
         line-height: 25px !important;
     }
 }
