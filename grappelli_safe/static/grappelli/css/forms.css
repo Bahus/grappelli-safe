@@ -70,6 +70,7 @@ label {
 }
 fieldset.collapse-open label {
     width: 120px;
+    padding-top: 2px;
 }
 
 
@@ -101,7 +102,7 @@ td p.help {
     margin-bottom: 3px; padding: 0;
 }
 fieldset .field-box {
-    float: left;
+    line-height: 28px;
     margin-right: 45px;
     white-space: nowrap;
 }
